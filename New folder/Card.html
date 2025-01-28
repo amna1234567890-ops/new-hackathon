@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Github</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        .myRound {
+            border-radius: 50% !important;
+            object-fit: contain !important;
+            width: 150px !important;
+            height: 150px !important;
+            border: 1px solid black !important;
+            background-image: linear-gradient(rgba(195, 0, 255, 0.281), rgba(0, 217, 255, 0.281)) !important;
+        }
+
+        .myScorler {
+            overflow-x: auto !important;
+            white-space: nowrap !important;
+            padding-bottom: 10px;
+            /* Adds some space below */
+        }
+
+        .myScorler .col {
+            display: inline-block !important;
+            /* Keeps columns in a horizontal line */
+            margin-right: 15px;
+            /* Adds spacing between images */
+        }
+
+        .myBox {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            background-image: linear-gradient(rgba(0, 255, 76, 0.445), rgba(0, 255, 234, 0.404)) !important;
+            border: 1px solid black;
+
+        }
+
+        .moving-paragraph {
+            position: relative;
+            white-space: nowrap;
+            /* Text ko single line mein rakhe */
+            font-size: 20px;
+            animation: moveHorizontally 10s linear infinite;
+            overflow: hidden;
+            /* Ensure ke overflow text screen ke bahar smoothly jaye */
+        }
+
+        @keyframes moveHorizontally {
+            0% {
+                transform: translateX(100%);
+                /* Start screen ke right ke bahar se karega */
+            }
+
+            100% {
+                transform: translateX(-100%);
+                /* End screen ke left ke bahar finish karega */
+            }
+        }
+
+        .myFluid {
+            background-image: linear-gradient( rgba(96, 250, 255, 0.658) , white);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container myScorler">
+        <div class="d-inline-flex">
+            <div class="col"><img src="https://i.pinimg.com/736x/05/51/77/05517790ab36f1a85fc354b7a34a85ae.jpg" alt=""
+                    height="230px" width="auto" class="myRound"></div>
+            <div class="col"><img src="https://i.pinimg.com/736x/3e/1d/e2/3e1de23bd430cd1246a892f1fe7dece7.jpg" alt=""
+                    height="230px" width="auto" class="myRound"></div>
+            <div class="col"><img src="https://i.pinimg.com/736x/a8/5e/13/a85e130e5a33475ef50f964de9a35b29.jpg" alt=""
+                    height="230px" width="auto" class="myRound"></div>
+            <div class="col"><img src="https://i.pinimg.com/736x/2a/84/a4/2a84a45bd69e650560ed970f74256aff.jpg" alt=""
+                    height="230px" width="auto" class="myRound"></div>
+            <div class="col"><img src="https://i.pinimg.com/736x/49/a6/11/49a6117d8665956a6c47e7f9af4510e8.jpg" alt=""
+                    height="230px" width="auto" class="myRound"></div>
+        </div>
+    </div>
+    <div class="container myScorler">
+        <div class="d-inline-flex">
+            <div class="col"><img src="https://i.pinimg.com/736x/05/51/77/05517790ab36f1a85fc354b7a34a85ae.jpg" alt=""
+                    height="230px" width="auto" class="myBox"></div>
+            <div class="col"><img src="https://i.pinimg.com/736x/3e/1d/e2/3e1de23bd430cd1246a892f1fe7dece7.jpg" alt=""
+                    height="230px" width="auto" class="myBox"></div>
+            <div class="col"><img src="https://i.pinimg.com/736x/a8/5e/13/a85e130e5a33475ef50f964de9a35b29.jpg" alt=""
+                    height="230px" width="auto" class="myBox"></div>
+            <div class="col"><img src="https://i.pinimg.com/736x/2a/84/a4/2a84a45bd69e650560ed970f74256aff.jpg" alt=""
+                    height="230px" width="auto" class="myBox"></div>
+            <div class="col"><img src="https://i.pinimg.com/736x/49/a6/11/49a6117d8665956a6c47e7f9af4510e8.jpg" alt=""
+                    height="230px" width="auto" class="myBox"></div>
+        </div>
+    </div>
+    <div class="container-fluid myFluid" style="overflow: hidden; position: relative;">
+        <p class="moving-paragraph">This is an amazing moving paragraph! 🌟 Watch me go infinitely! 😊 meezanbank is a
+            site but not good Site</p>
+    </div>
+
+    <section id="team" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Team</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">Frontend Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Jane Smith</h5>
+                            <p class="card-text">Backend Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Alex Johnson</h5>
+                            <p class="card-text">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <form class="bg-white p-4 rounded shadow" style="max-width: 400px; width: 100%;">
+            <h2 class="text-center mb-4">Login</h2>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+            <p class="text-center mt-3"><a href="#">Forgot your password?</a></p>
+        </form>
+    </div>
+    
+</body>
+
+</html>
